@@ -47,7 +47,7 @@ setInterval(() => {
 // ...existing code...
 
 function atualizarTempoJuntos() {
-  const inicio = new Date(2017, 9, 26, 22, 0, 0); // mês começa do zero (9 = outubro)
+  const inicio = new Date(2024, 1, 12, 0, 0, 0);
   const agora = new Date();
   let diff = agora - inicio;
 
