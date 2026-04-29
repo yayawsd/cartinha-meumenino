@@ -15,19 +15,21 @@ btnPlayPause.addEventListener("click", () => {
     btnPlayPause.textContent = "Play";
   }
 });
+
 const imagens = [
-  "src/img/img1.jpg",
-  "src/img/img2.jpg",
-  "src/img/img3.jpg",
-  "src/img/img4.jpg",
-  "src/img/img5.jpg",
-  "src/img/img6.jpg",
-  "src/img/img7.jpg",
-  "src/img/img8.jpg",
-  "src/img/img9.jpg",
-  "src/img/img10.jpg",
-  "src/img/img11.jpg",
+  "src/img/img1.jpeg",
+  "src/img/img2.jpeg",
+  "src/img/img3.jpeg",
+  "src/img/img4.jpeg",
+  "src/img/img5.jpeg",
+  "src/img/img6.jpeg",
+  "src/img/img7.jpeg",
+  "src/img/img8.jpeg",
+  "src/img/img9.jpeg",
+  "src/img/img10.jpeg",
+  "src/img/img11.jpeg"
 ];
+
 let indice = 0;
 const img = document.getElementById("imagem-passar");
 
